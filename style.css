@@ -1,0 +1,89 @@
+/* style.css */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 1rem 3rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+.member-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.member {
+  background-color: #111;
+  border-radius: 12px;
+  width: 260px;
+  padding: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(128, 0, 255, 0.8);
+  transition: transform 0.2s ease-in-out;
+}
+
+.member:hover {
+  transform: scale(1.05);
+}
+
+.pfp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4b0082; /* dark glowing purple ring */
+  box-shadow: 0 0 8px #8000ff;
+  margin-bottom: 1rem;
+}
+
+.info {
+  font-size: 1rem;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.soundcloud {
+  color: #aa44ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.soundcloud:hover {
+  color: #ff88ff;
+}
+
+footer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: 700;
+}
+
+.footer-link {
+  color: #aa44ff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  color: #ff88ff;
+}
